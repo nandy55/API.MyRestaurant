@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -96,4 +96,4 @@ catch (Exception ex)
 {
     Console.WriteLine($"[??] Could not launch browser automatically: {ex.Message}");
 }
-#endif
+# endif
